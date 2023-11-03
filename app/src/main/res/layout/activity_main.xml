@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/amount"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:textColorHint="?attr/colorOnSecondary"
+        android:background="@drawable/style"
+        android:padding="10dp"
+
+
+        android:autofillHints="" />
+
+
+    <EditText
+        android:id="@+id/referncenceNumbere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/referencence_number"
+        android:inputType="number"
+        android:padding="10dp" android:textColorHint="?attr/colorOnSecondary"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/style"
+        android:autofillHints="no" />
+
+
+
+    <EditText
+        android:id="@+id/receiverName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/receiver_name"
+        android:padding="10dp"
+        android:inputType="text"
+        android:textColorHint="?attr/colorOnSecondary"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/style"
+        android:autofillHints="no" />
+
+    <EditText
+        android:id="@+id/accountNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/a_c_number"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColorHint="?attr/colorOnSecondary"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/style"
+        android:autofillHints="" />
+
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/statusSpinner"
+        android:textColor="?attr/colorOnSecondary"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/done"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"
+        android:background="#108b43"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</LinearLayout>

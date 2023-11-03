@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NovoPay</string>
+    <string name="_00_00">₹ 00.00</string>
+    <string name="success">Success!</string>
+    <string name="transfer_request_successful">Transfer request successful.</string>
+    <string name="amount">amount:</string>
+    <string name="reference_number">reference number:</string>
+    <string name="withdrawable_balance">withdrawable balance</string>
+    <string name="total_charges">total charges:</string>
+    <string name="holder_name">holder name</string>
+    <string name="a_c_number">a/c number</string>
+    <string name="done">Done</string>
+    <string name="receiver_name">Receiver Name</string>
+    <string name="referencence_number">Referencence Number</string>
+    <string name="processing">processing</string>
+
+
+    <string-array name="section">
+        <item>Success</item>
+        <item>Pending</item>
+        <item>Failed</item>
+    </string-array>
+</resources>
